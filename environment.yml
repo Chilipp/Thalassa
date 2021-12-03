@@ -1,18 +1,12 @@
----
-
-name: Thalassa
-
 channels:
   - conda-forge
-
+  - nodefaults
 dependencies:
-  - python=3.9
-  - proj<8
-  - datashader
-  - panel
-  - holoviews
-  - geoviews
-  - cartopy<0.20
-  - shapely=1.7.1
-  - ruamel.yaml
-  - black=21.11b0
+  - cartopy =0.19.0
+  - pyproj
+  - scipy
+  - netcdf4
+  - numba
+  - numpy
+  - pandas
+  - llvmlite
